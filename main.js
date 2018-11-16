@@ -76,7 +76,7 @@ var audio ={
 var malos=[]
 
 var cristales=[]
-
+ 
 
 var ffmalos =[
 "./malos FF/Antlion.gif",
@@ -616,7 +616,6 @@ function gameOver(){
   musica.pause()
   malos=[]
   cristales=[]
-  kane.score = " "
   ctx.drawImage(gamoOv,50,50,400,400)
   ctx.fillStyle = "white"
   ctx.font = "bold 40px Arial"
